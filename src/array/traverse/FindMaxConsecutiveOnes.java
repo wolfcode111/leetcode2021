@@ -1,4 +1,4 @@
-package array;
+package array.traverse;
 
 public class FindMaxConsecutiveOnes {
     public static void main(String[] args) {
