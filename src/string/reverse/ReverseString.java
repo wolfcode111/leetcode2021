@@ -13,9 +13,9 @@ public class ReverseString {
     public static void reverseString(char[] s) {
 
             if(s.length==0)return;
-      char temp = '0';
-      int len=s.length-1;
-      for(int i=0;i<=len/2;i++){
+            char temp = '0';
+            int len=s.length-1;
+            for(int i=0;i<=len/2;i++){
           temp=s[i];
           s[i]=s[len-i];
           s[len-i]=temp;
